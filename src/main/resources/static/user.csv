@@ -1,3 +1,3 @@
-name,email,countryCode,age
-phani,phaniram.kakaraparthi@gmail.com,india,32
-sruti,bsruti.6@gmail.com,india,29
+name,email,countryCode,age,dob
+phani,phaniram.kakaraparthi@gmail.com,india,32,1988-01-10
+sruti,bsruti.6@gmail.com,india,29,1991-07-24

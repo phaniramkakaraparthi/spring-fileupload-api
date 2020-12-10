@@ -14,7 +14,7 @@ public class FileUploadExceptionAdvice extends ResponseEntityExceptionHandler {
     }
 
     @ExceptionHandler(UnsupportedMediaTypeStatusException.class)
-    public  ResponseEntity<Object> handleUnSupportedMediaException(UnsupportedMediaTypeStatusException exception){
+    public ResponseEntity<Object> handleUnSupportedMediaException(UnsupportedMediaTypeStatusException exception) {
         return new ResponseEntity<>("Unsupported Mediatype", HttpStatus.UNSUPPORTED_MEDIA_TYPE);
     }
 }
